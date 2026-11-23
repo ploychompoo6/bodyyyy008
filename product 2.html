@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สินค้าทั้งหมด | Body Scent</title>
+  <meta name="description" content="น้ำหอมฉีดตัว 30ml และ 100ml และโรลออน จาก Body Scent เลือกกรองตามมู้ด Fresh, Sweet, Confident และ Romance">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* สไตล์เฉพาะหน้าสินค้า */
+    .page-title { font-size: clamp(2rem, 5vw, 3rem); font-weight: 300; }
+    .products-section { padding-top: var(--space-6); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Body Scent</a>
+      <nav class="nav" aria-label="เมนูหลัก">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html" aria-current="page">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section products-section">
+      <div class="container">
+        <div class="section-head">
+          <h1 class="page-title">สินค้าทั้งหมด</h1>
+          <span class="title-rule" aria-hidden="true"></span>
+          <p>น้ำหอมฉีดตัวขนาด 30ml และ 100ml และโรลออน เลือกกลิ่นที่ตรงกับมู้ดของคุณ</p>
+        </div>
+
+        <div id="filter-bar" class="filter-bar" role="group" aria-label="กรองตามมู้ด"></div>
+
+        <div id="product-list" class="product-grid" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a class="brand" href="index.html">Body Scent</a>
+      <p>น้ำหอมฉีดตัวและโรลออนสำหรับทุกมู้ด</p>
+      <nav class="footer-links" aria-label="ลิงก์ท้ายเว็บ">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+      </nav>
+      <div class="footer-bottom">&copy; 2026 Body Scent. สงวนลิขสิทธิ์</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
